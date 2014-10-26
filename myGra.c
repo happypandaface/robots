@@ -112,7 +112,7 @@ int main(int argc, char **argv)
     goto cleanup;
   }
   // set up the buffers, this video device driver uses memory mapping to get the video data to c programs using the driver.
-  // The 
+  // The driver sets up buffers when you give it the "requestbuffers" object earlier. Now we need to know where they are in memory 
   buffers = calloc(req.count, sizeof(*buffers));
   int n_buffers;// used later for dealloc
   for (n_buffers = 0; n_buffers < req.count; ++n_buffers) {
@@ -141,6 +141,7 @@ int main(int argc, char **argv)
       goto cleanup;
     }
   }
+  // now we tell the driver it can start putting info into the buffers
   for (int i = 0; i < n_buffers; ++i) {
     struct v4l2_buffer buf;
 
