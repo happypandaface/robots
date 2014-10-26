@@ -20,4 +20,4 @@ gra:
 	gcc gra.c -Wall -ljpeg -DIO_READ -DIO_MMAP -DIO_USERPTR
 
 my:
-	gcc myGra.c
+	gcc -g myGra.c -std=c99 -ljpeg
