@@ -1,0 +1,105 @@
+[0x10ad108] main libvlc debug: VLC media player - 2.0.3 Twoflower
+[0x10ad108] main libvlc debug: Copyright © 1996-2012 VLC authors and VideoLAN
+[0x10ad108] main libvlc debug: revision 2.0.2-93-g77aa89e
+[0x10ad108] main libvlc debug: configured with ./configure  '--enable-static' '--build=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security' 'CPPFLAGS=-D_FORTIFY_SOURCE=2' 'CXXFLAGS=-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security' 'LDFLAGS=-Wl,-z,relro' '--config-cache' '--disable-maintainer-mode' '--disable-silent-rules' '--disable-update-check' '--enable-fast-install' '--prefix=/usr' '--docdir=/usr/share/doc/vlc-nox' '--sysconfdir=/etc' '--with-binary-version=5+deb7u1' '--enable-a52' '--enable-aa' '--enable-bluray' '--enable-bonjour' '--enable-caca' '--enable-dbus' '--enable-dca' '--enable-dirac' '--enable-directfb' '--enable-dvbpsi' '--enable-dvdnav' '--enable-faad' '--enable-flac' '--enable-fluidsynth' '--enable-freetype' '--enable-fribidi' '--enable-gnutls' '--enable-jack' '--enable-kate' '--enable-libass' '--enable-libmpeg2' '--enable-libproxy' '--enable-libxml2' '--enable-lirc' '--enable-live555' '--enable-mad' '--enable-mkv' '--enable-mod' '--enable-mpc' '--enable-mtp' '--enable-mux_ogg' '--enable-ncurses' '--enable-notify' '--enable-ogg' '--enable-oss' '--enable-pulse' '--enable-qt4' '--enable-realrtsp' '--enable-samplerate' '--enable-schroedinger' '--enable-sdl' '--enable-shout' '--enable-skins2' '--enable-smb' '--enable-speex' '--enable-svg' '--enable-taglib' '--enable-theora' '--enable-twolame' '--enable-upnp' '--enable-vcd' '--enable-vcdx' '--enable-vorbis' '--enable-x264' '--enable-zvbi' '--with-kde-solid=/usr/share/kde4/apps/solid/actions/' '--disable-dxva2' '--disable-gnomevfs' '--disable-goom' '--disable-portaudio' '--disable-projectm' '--disable-sqlite' '--disable-telx' '--enable-alsa' '--enable-atmo' '--enable-dc1394' '--enable-dv' '--enable-fbosd' '--enable-libva' '--enable-linsys' '--enable-omxil' '--enable-pvr' '--enable-udev' '--enable-v4l2' '--enable-crystalhd' '--enable-mmx' '--enable-sse' '--disable-neon' '--disable-altivec' 'build_alias=x86_64-linux-gnu'
+[0x10ad108] main libvlc debug: searching plug-in modules
+[0x10ad108] main libvlc debug: loading plugins cache file /usr/lib/vlc/plugins/plugins.dat
+[0x10ad108] main libvlc debug: recursively browsing `/usr/lib/vlc/plugins'
+[0x10ad108] main libvlc debug: saving plugins cache /usr/lib/vlc/plugins/plugins.dat
+[0x10ad108] main libvlc debug: plug-ins loaded: 420 modules
+[0x10ad108] main libvlc debug: opening config file (/home/chobe/.config/vlc/vlcrc)
+[0x10ad108] main libvlc debug: translation test: code is "C"
+[0x10ad108] main libvlc debug: CPU has capabilities MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4.1 FPU 
+[0x10ad108] main libvlc debug: looking for memcpy module: 4 candidates
+[0x10ad108] main libvlc debug: using memcpy module "memcpymmxext"
+[0x1176278] main input debug: Creating an input for 'Media Library'
+[0x1176278] main input debug: Input is a meta file: disabling unneeded options
+[0x1176278] main input debug: using timeshift granularity of 50 MiB, in path '/tmp'
+[0x1176278] main input debug: `file/xspf-open:///home/chobe/.local/share/vlc/ml.xspf' gives access `file' demux `xspf-open' path `/home/chobe/.local/share/vlc/ml.xspf'
+[0x1176278] main input debug: creating demux: access='file' demux='xspf-open' location='/home/chobe/.local/share/vlc/ml.xspf' file='/home/chobe/.local/share/vlc/ml.xspf'
+[0x10ddd88] main demux debug: looking for access_demux module: 3 candidates
+[0x10ddd88] main demux debug: no access_demux module matching "file" could be loaded
+[0x10ddd88] main demux debug: TIMER module_need() : 0.557 ms - Total 0.557 ms / 1 intvls (Avg 0.557 ms)
+[0x1176278] main input debug: creating access 'file' location='/home/chobe/.local/share/vlc/ml.xspf', path='/home/chobe/.local/share/vlc/ml.xspf'
+[0x10de1e8] main access debug: looking for access module: 2 candidates
+[0x10de1e8] filesystem access debug: opening file `/home/chobe/.local/share/vlc/ml.xspf'
+[0x10de1e8] main access debug: using access module "filesystem"
+[0x10de1e8] main access debug: TIMER module_need() : 0.206 ms - Total 0.206 ms / 1 intvls (Avg 0.206 ms)
+[0x11793e8] main stream debug: Using stream method for AStream*
+[0x11793e8] main stream debug: starting pre-buffering
+[0x11793e8] main stream debug: received first data after 0 ms
+[0x11793e8] main stream debug: pre-buffering done 296 bytes in 0s - 24088 KiB/s
+[0x11785f8] main stream debug: looking for stream_filter module: 7 candidates
+[0x11785f8] main stream debug: no stream_filter module matching "any" could be loaded
+[0x11785f8] main stream debug: TIMER module_need() : 0.442 ms - Total 0.442 ms / 1 intvls (Avg 0.442 ms)
+[0x11785f8] main stream debug: looking for stream_filter module: 1 candidate
+[0x11785f8] main stream debug: using stream_filter module "stream_filter_record"
+[0x11785f8] main stream debug: TIMER module_need() : 0.096 ms - Total 0.096 ms / 1 intvls (Avg 0.096 ms)
+[0x1176278] main input debug: creating demux: access='file' demux='xspf-open' location='/home/chobe/.local/share/vlc/ml.xspf' file='/home/chobe/.local/share/vlc/ml.xspf'
+[0x117bbc8] main demux debug: looking for demux module: 1 candidate
+[0x117bbc8] playlist demux debug: using XSPF playlist reader
+[0x117bbc8] main demux debug: using demux module "playlist"
+[0x117bbc8] main demux debug: TIMER module_need() : 0.156 ms - Total 0.156 ms / 1 intvls (Avg 0.156 ms)
+[0x117c4c8] main demux meta debug: looking for meta reader module: 2 candidates
+[0x117c4c8] lua demux meta debug: Trying Lua scripts in /home/chobe/.local/share/vlc/lua/meta/reader
+[0x117c4c8] lua demux meta debug: Trying Lua scripts in /usr/lib/vlc/lua/meta/reader
+[0x117c4c8] lua demux meta debug: Trying Lua playlist script /usr/lib/vlc/lua/meta/reader/filename.luac
+[0x117c4c8] lua demux meta debug: Trying Lua scripts in /usr/share/vlc/lua/meta/reader
+[0x117c4c8] main demux meta debug: no meta reader module matching "any" could be loaded
+[0x117c4c8] main demux meta debug: TIMER module_need() : 1.486 ms - Total 1.486 ms / 1 intvls (Avg 1.486 ms)
+[0x1176278] main input debug: `file/xspf-open:///home/chobe/.local/share/vlc/ml.xspf' successfully opened
+[0x10df458] main xml reader debug: looking for xml reader module: 1 candidate
+[0x10df458] main xml reader debug: using xml reader module "xml"
+[0x10df458] main xml reader debug: TIMER module_need() : 0.481 ms - Total 0.481 ms / 1 intvls (Avg 0.481 ms)
+[0x117bbc8] playlist demux debug: parsed 0 tracks successfully
+[0x1176278] main input debug: EOF reached
+[0x117bbc8] main demux debug: removing module "playlist"
+[0x11785f8] main stream debug: removing module "stream_filter_record"
+[0x10de1e8] main access debug: removing module "filesystem"
+[0x1176278] main input debug: TIMER input launching for 'Media Library' : 3.328 ms - Total 3.328 ms / 1 intvls (Avg 3.328 ms)
+[0x10dd8b8] main interface debug: looking for interface module: 1 candidate
+[0x10dd8b8] main interface debug: using interface module "hotkeys"
+[0x10dd8b8] main interface debug: TIMER module_need() : 0.174 ms - Total 0.174 ms / 1 intvls (Avg 0.174 ms)
+[0x1176278] main interface debug: looking for interface module: 1 candidate
+[0x11754b8] main playlist debug: playlist threads correctly activated
+[0x11754b8] main playlist debug: rebuilding array of current - root Playlist
+[0x11754b8] main playlist debug: rebuild done - 0 items, index -1
+[0x1176278] main interface debug: using interface module "inhibit"
+[0x1176278] main interface debug: TIMER module_need() : 3.757 ms - Total 3.757 ms / 1 intvls (Avg 3.757 ms)
+[0x11754b8] main playlist debug: adding item `v4l2:///dev/video0:input=4:width=720:height=480' ( v4l2:///dev/video0:input=4:width=720:height=480 )
+[0x11754b8] main playlist debug: no fetch required for (null) (art currently (null))
+[0x7f8f5c000b18] main interface debug: looking for interface module: 1 candidate
+[0x7f8f5c000b18] main interface debug: using interface module "globalhotkeys"
+[0x7f8f5c000b18] main interface debug: TIMER module_need() : 0.501 ms - Total 0.501 ms / 1 intvls (Avg 0.501 ms)
+[0x10ad108] main libvlc: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+[0x10dbcb8] main interface debug: looking for interface module: 6 candidates
+[0x131b398] main generic debug: looking for extension module: 1 candidate
+[0x131b398] lua generic debug: Opening Lua Extension module
+[0x131b398] lua generic debug: Trying Lua scripts in /home/chobe/.local/share/vlc/lua/extensions
+[0x131b398] lua generic debug: Trying Lua scripts in /usr/lib/vlc/lua/extensions
+[0x131b398] lua generic debug: Trying Lua scripts in /usr/share/vlc/lua/extensions
+[0x131b398] main generic debug: using extension module "lua"
+[0x131b398] main generic debug: TIMER module_need() : 0.175 ms - Total 0.175 ms / 1 intvls (Avg 0.175 ms)
+[0x10dbcb8] main interface debug: using interface module "qt4"
+[0x10dbcb8] main interface debug: TIMER module_need() : 26.261 ms - Total 26.261 ms / 1 intvls (Avg 26.261 ms)
+[0x11754b8] main playlist debug: processing request item: null, node: Playlist, skip: 0
+[0x11754b8] main playlist debug: rebuilding array of current - root Playlist
+[0x11754b8] main playlist debug: rebuild done - 1 items, index -1
+[0x11754b8] main playlist debug: starting playback of the new playlist item
+[0x11754b8] main playlist debug: resyncing on v4l2:///dev/video0:input=4:width=720:height=480
+[0x11754b8] main playlist debug: v4l2:///dev/video0:input=4:width=720:height=480 is at 0
+[0x11754b8] main playlist debug: creating new input thread
+[0x11859e8] main input debug: Creating an input for 'v4l2:///dev/video0:input=4:width=720:height=480'
+[0x11859e8] main input debug: using timeshift granularity of 50 MiB, in path '/tmp'
+[0x11859e8] main input debug: `v4l2:///dev/video0:input=4:width=720:height=480' gives access `v4l2' demux `' path `/dev/video0:input=4:width=720:height=480'
+[0x11859e8] main input debug: enforced demux ` rawvideo'
+[0x11859e8] main input debug: creating demux: access='v4l2' demux='rawvideo' location='/dev/video0:input=4:width=720:height=480' file='/dev/video0:input=4:width=720:height=480'
+[0x138a788] main demux debug: looking for access_demux module: 1 candidate
+[0x138a788] v4l2 demux debug: opening device '/dev/video0'
+[0x10dbcb8] qt4 interface debug: IM: Setting an input
+[0x138a788] v4l2 demux debug: trying kernel V4L2
+[0x10ad108] main libvlc debug: exiting
+[0x10ad108] main libvlc debug: deactivating the playlist
+[0x11754b8] main playlist debug: deactivating the playlist
+[0x11754b8] main playlist debug: incoming request - stopping current input
+[0x11754b8] main playlist debug: dying input
